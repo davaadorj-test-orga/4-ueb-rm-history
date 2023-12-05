@@ -1,0 +1,5 @@
+git remote get-url origin
+	git@github.com:davaadorj-test-orga/4-ueb-rm-history.git
+git filter-repo --invert-paths --path ./src/resources/.env --force
+git remote add origin git@github.com:davaadorj-test-orga/4-ueb-rm-history.git
+git push -u origin main --force
